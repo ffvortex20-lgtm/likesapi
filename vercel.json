@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "likesapi-main/send_like.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "likesapi-main/send_like.py"
+      "dest": "api/index.py"
     }
   ]
 }
