@@ -1,3 +1,5 @@
 httpx
 protobuf
 pycryptodome
+flask
+flask-cors
